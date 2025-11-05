@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /projects/
 
-Sitemap: https://tristanmeyrowski.com/sitemap.xml
+Sitemap: https://tristanmeyrowski.com/sitemap-index.xml
