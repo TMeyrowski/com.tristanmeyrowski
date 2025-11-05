@@ -1,0 +1,60 @@
+---
+import '../styles/main.css';
+---
+
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
+    <meta name="viewport" content="width=device-width"/>
+    <meta name="generator" content={Astro.generator}/>
+    <title>Tristan Meyrowski</title>
+</head>
+<body>
+<div class="content-wrapper">
+    <div class="header">
+        <img src="/images/tristan_meyrowski_logo.svg" alt="Tristan MEYROWSKI Logo"/>
+        <h1>Tristan MEYROWSKI</h1>
+    </div>
+
+    <hr/>
+
+    <div class="intro">
+        Built with modern technology but designed with nostalgia for the early web. This static site serves as a central
+        hub
+        for all my online presence and projects.
+    </div>
+
+    <hr/>
+
+    <h2>Professional Links</h2>
+
+    <link-item
+            href="https://www.linkedin.com/in/tristan-meyrowski/"
+            title="LinkedIn Profile"
+            description="Connect with me on LinkedIn to view my professional experience, skills, and network. Stay updated on my latest projects and career milestones."
+    ></link-item>
+
+    <link-item
+            href="https://www.credly.com/users/tristan-meyrowski"
+            title="Credly Badges"
+            description="View my verified certifications and professional achievements. Explore the technical skills and qualifications I've earned throughout my career."
+    ></link-item>
+
+    <link-item
+            href="https://github.com/tmeyrowski"
+            title="GitHub Profile"
+            description="Explore my contributions and personal projects. Browse through my code repositories and see what I'm currently working on."
+    ></link-item>
+</div>
+
+<footer class="site-footer">
+    <hr/>
+    <p>Copyright © 2025 Tristan MEYROWSKI</p>
+</footer>
+
+<script>
+    import '../scripts/components.ts';
+</script>
+</body>
+</html>

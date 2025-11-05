@@ -1,0 +1,16 @@
+{
+  "name": "tristanmeyrowski.com",
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.6.0",
+    "astro": "^5.15.1",
+    "lit": "^3.3.1"
+  }
+}
